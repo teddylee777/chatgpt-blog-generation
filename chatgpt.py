@@ -27,6 +27,7 @@ def generate_text(prompt):
 def extract_tags(body):
     hashtag_pattern = r'(#+[a-zA-Z0-9(_)]{1,})'
     hashtags = [w[1:] for w in re.findall(hashtag_pattern, body)]
+    hashtags = list(set(hashtags))
     tag_string = ""
     for w in hashtags:
         # 3글자 이상 추출
@@ -57,8 +58,6 @@ categories: {category}
 tag: [{tags}]
 toc: false
 author_profile: false
-sidebar:
-    nav: "counts"
 ---'''
     return page_head
 
