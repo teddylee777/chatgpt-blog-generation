@@ -6,4 +6,4 @@ Automated blog posts generator powered by ChatGPT and Streamlit 😀
 
 아래의 데모 사이트에서 테스트 해볼 수 있습니다.
 
-**[데모 사이트 링크](https://bit.ly/chatgpt-blogs)**
+**[데모 사이트 링크](https://bit.ly/chatgpt-blog)**
